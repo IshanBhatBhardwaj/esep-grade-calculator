@@ -93,7 +93,7 @@ func TestPrinting(t *testing.T) {
 }
 
 func TestPass(t *testing.T) {
-	expected_value = "Pass"
+	expected_value := "Pass"
 
 	gradeCalculator := NewGradeCalculator()
 
@@ -111,7 +111,7 @@ func TestPass(t *testing.T) {
 }
 
 func TestFail(t *testing.T) {
-	expected_value = "Fail"
+	expected_value := "Fail"
 
 	gradeCalculator := NewGradeCalculator()
 
